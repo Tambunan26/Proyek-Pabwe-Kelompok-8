@@ -26,5 +26,5 @@ Nama Kelompok:
 3. Fitur-Fitur Yang digunakan :
 - Home --> Dimana ini menjadi halaman utama website kami
 - Profil --> Fitur ini menampilkan profil dosen dan silabus informatika
-- Kegiatan --> Fitur ini menampilkan kegiatan-kegiatan yang telah diadakan oleh informatika.
-- Tentang 
+- Berita --> Fitur ini menampilkan informasi/kegiatan yang telah diadakan oleh program studi infirmatika.
+- Tentang --> Berisi tentang informatika
