@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="Asset pabwe/logo himasti.png" type="image/gif">
+    <title>Berita</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="Asset pabwe/logo-del 1.png" alt="Del" width="60""></a>
+        <a href="index.html"><img src="Asset pabwe/logo himasti.png" alt="himasti" width="65" /></a>
+        <div class="text-center mt-2" style="color: white">
+          <h5>Himpunan Mahasiswa</h5>
+          <h5>Sarjana Informatika</h5>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="berita.html" style="color: white">Berita</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+      </ul>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Section -->
+    <section class="container jumbotron mb-0">
+      <div class="text-center">
+        <h5>Pengukuhan Angkatan 2021 dan Perpisahan Angkatan 2017</h5>
+        <br />
+        <img src="Asset pabwe/pengukuhanberita.jpeg" alt="pengukuhan" width="1000px" height="700px" />
+      </div>
+      <div class="text-justify mt-5">
+        <p align="justify">
+          Pengukuhan Angkatan 2021 dan Perpisahan Angkatan 2017 kali ini dilakukan secara daring via Zoom meeting, Pengukuhan ini bertujuan untuk agar mahasiswa baru S1 Informatika dapat mengenal lingkungan kampus dan isinya, dengan harapan
+          agar mampu menempuh pembelajaran perkuliahan dengan maksimal dan mampu beradaptasi dengan sistem belajar. Perpisahan Angkatan 2017 bertujuan untuk memberangkatkan kakak kita yang akan wisuda yang akan berpisah dari kita
+          adik-adiknya. Semoga kakak kita dapat langsung menemukan pekerjaan setelah wisuda nanti.
+        </p>
+      </div>
+    </section>
+    <!-- Akhir Section -->
+
+     <!-- Footer -->
+     <footer class="bg-dark text-white" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 mt-5 mb-5 Sosial">
+            <h5>Hubungi Kami</h5>
+            <ul class="list-unstyled mb-0 ms-end">
+              <li class="mb-2">
+                <a href="https://goo.gl/maps/LyS93z4RcPoScnbL8" class="text-white" style="font-size: small"><img class="me-2" src="Asset pabwe/icon lokasi.png" alt="lokasi" width="20px" />Jl. Sisingamangaraja, Sitoluama Laguboti, Toba Samosir Sumatera Utara, Indonesia</a>
+              </li>
+              <li class="mb-2">
+                <a href="" id="email" class="text-white" style="font-size: small"><img class="me-2" src="Asset pabwe/icon email.png" alt="email" width="20px" id="email"/>himasti.del@gmail.com</a>
+              </li>
+              <li>
+                <a href="" id="telefon"class="text-white" style="font-size: small"><img class="me-2" src="Asset pabwe/icon telepon.png" alt="telepon" width="20px" id="telefon"/>991 199</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 mt-5 mb-5">
+            <h5>Sosial Media</h5>
+            <a href="https://www.instagram.com/himasti_itdel/"><img class="me-2" src="Asset pabwe/icon instagram.png" alt="instagram" width="24px" /></a>
+            <a href="" id="facebook"><img class="me-2" src="Asset pabwe/icon facebook.png" alt="facebook" width="24px"/></a>
+            <a href="https://www.youtube.com/channel/UCL4PO2hiYGnJDpOXD8K2zSA"><img src="Asset pabwe/icon youtube.png" alt="youtube" width="24px" /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #05445e">© 2021 Program Studi Informatika - 11S19004_11S19011_11S19032_11S19041</div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Akhir footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9Ah50zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+            function load(){
+          alert("Facebook Himasti Belum tersedia")
+      }
+      document.getElementById("facebook").addEventListener("click", load);
+      /**email */
+      function sendEmail(){
+          window.open('mailto:himasti.del@gmail.com?subject=subject&body=body')
+      }
+      document.getElementById('email').addEventListener("click", sendEmail);
+      /**telefon */
+      function telefon(){
+          alert("Telefon Himasti Belum tersedia")
+      }
+      document.getElementById("telefon").addEventListener("click", telefon);
+    </script>
+  </body>
+</html>
