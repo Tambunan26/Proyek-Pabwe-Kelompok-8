@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: #05445e;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 40px;
+}
+nav ul li a {
+  color: rgb(199, 194, 194);
+  text-decoration: none;
+}
+nav a {
+  margin: auto 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+nav ul li {
+  margin: auto 40px;
+}
+nav .logo {
+  display: flex;
+}
+
+nav ul li :hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#navbar {
+  height: 100px;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  color: #05445e;
+}
+
+.Sosial ul li a {
+  text-decoration: none;
+}
